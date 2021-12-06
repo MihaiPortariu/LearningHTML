@@ -1,0 +1,48 @@
+.home_page_c2 {
+  background-image: url(../media/chameleon.png);
+  background-size: cover;
+  background-color: #4EBAD1;
+  height: 100vh;
+}
+
+.home_page_c1 {
+  background-color: #232425;
+  height: 100vh;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.big_screen {
+    display: block;
+}
+
+.small_screen {
+    color:white;
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .big_screen {
+        display: none;
+    }
+    .small_screen {
+        display: block;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    [class*="col-"] {
+        padding: 5px;
+    }
+
+    .col-12 {
+        padding: 0px;
+    }
+
+    .col-12 img {
+        width: 100%;
+        height: auto;
+    }
+}
