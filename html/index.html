@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +9,11 @@
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/index.css">
     </head>
-    <body class="home_page">
+    <body>
+    <main>
         <header class="header">
             <a href="index.html" class="">
-                <img src="../media/LOGO.PNG">
+                <img src="../media/LOGO.PNG" alt="WAG3.0">
             </a>
             <a href="index.html" class="logo">WAG 2.0</a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -21,7 +21,7 @@
             <ul class="menu">
               <li><a href="colors.html">Colors</a></li>
               <li><a href="History.html">History</a></li>
-              <li><a href="AboutME.html">About Me</a></li>
+              <li><a href="AboutME.html">Contact Me</a></li>
               <li><a href="References.html">References</a></li>
             </ul>
         </header>
@@ -57,8 +57,15 @@
                     to categorizes the different elements of accessibility.
                     Following is recommended to 
                     make sure your HTML-based web applications are conforming to the WCAG 2.0 guidelines. </p>
-                    <div class="buttonleft"><a  href="https://webaim.org/standards/wcag/checklist"><button class="button">WebAIM Official</button></a>
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-6">
+                            <form action="https://webaim.org/standards/wcag/checklist">
+                                <button class="button buttonleft">WebAIM Official</button>
+                            </form>
                         </div>
+                        <div class="col-3"></div>
+                    </div>  
             </div>
         </div>
         <div class="small_screen">   
@@ -89,7 +96,7 @@
             </div>  
             <div class="row">
                 <div class="col-12">
-                    <img src="../media/chameleon_flip.png">
+                    <img src="../media/chameleon_flip.png" alt="chameleon">
                 </div>
             </div>  
             <div class="row">
@@ -103,16 +110,25 @@
                         to categorizes the different elements of accessibility.
                         Following is recommended to 
                         make sure your HTML-based web applications are conforming to the WCAG 2.0 guidelines. </p>
-                        <div class="buttonleft"><a  href="https://webaim.org/standards/wcag/checklist"><button class="button">WebAIM Official</button></a>
-                            </div> 
+                        <div class="row">
+                            <div class="col-4"></div>
+                            <div class="col-4">
+                                <form action="https://webaim.org/standards/wcag/checklist">
+                                    <button class="button buttonleft">WebAIM Official</button>
+                                </form>
+                            </div>
+                            <div class="col-4"></div>
+                        </div>
+                        
                 </div>
                 <div class="col-1">
                     
                 </div>
             </div>
         </div>
+    </main>
         <footer class="footer">
-            Copyright &copy; Mihai Portariu Web Design. All Rights Reserved
+            Copyright &copy; Mihai Portariu Web Design. All Rights Reserved!
             
         </footer>
     </body>

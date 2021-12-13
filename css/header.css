@@ -24,6 +24,9 @@
     border-right: 1px solid #27819F;
     color: #151A1C;
     text-decoration: none;
+    min-width: 150px;
+    text-align: center;
+    font-weight: bold;
   }
   .header li a:hover,
   .header .menu-btn:hover {
@@ -108,7 +111,7 @@
     top: 0;
   }
   /* 48em = 768px */
-  @media (min-width: 48em) {
+  @media (min-width: 850px) {
     .header li {
       float: left;
     }

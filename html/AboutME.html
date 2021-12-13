@@ -1,35 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Defining Colors</title>
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/aboutme.css">
 </head>
 <body class="home_page">
-    <header class="header">
-        <a href="index.html" class="">
-            <img src="../media/LOGO.PNG">
-        </a>
-        <a href="index.html" class="logo">WAG 2.0</a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-            <li><a href="colors.html">Colors</a></li>
-            <li><a href="History.html">History</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="References.html">References</a></li>
-        </ul>
-    </header>
-    <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
-        <div class="col-2"></div>
+    <main>
+        <header class="header">
+            <a href="index.html" class="">
+                <img src="../media/LOGO.PNG" alt="WAG3.0">
+            </a>
+            <a href="index.html" class="logo">WAG 2.0</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="colors.html">Colors</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="References.html">References</a></li>
+            </ul>
+        </header>
+        <div class="row">
+            <div class="col-1"></div>
+                <div class="col-10">
+                        <h1>About Me</h1>
+                        <h2>Mihai Portariu</h2>
+                    <h3> Computer Science student at Birmingham City University</h3>
+                </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <form action="#" onsubmit="alert('Thanks for your message!');">
+                        <div id="form-main-container">
+                            <div id="form-area">
+                              <div id="form-title">
+                              Leave a message
+                              </div>
+                              <div id="form-body">
+                                <div>
+                                  <div class="col-12">
+                                    <fieldset class="form-group">
+                                      <label class="form-label" for="input4">Your name</label>
+                                      <input type="text" class="form-control" id="input4" placeholder="Name goes here" required>
+                                    </fieldset>
+                                  </div>
+                                  <div class="col-12">
+                                    <fieldset class="form-group">
+                                      <label class="form-label" for="input5">Your email</label>
+                                      <input type="text" class="form-control" id="input5" placeholder="Your email, probably" required>
+                                    </fieldset>
+                                  </div>
+                                  <div class="col-12">
+                                    <fieldset class="form-group">
+                                      <label class="form-label" for="input6">Your message</label>
+                                      <textarea class="form-control" id="input6" rows="5" placeholder="Say something nice ..." required></textarea>
+                                    </fieldset>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="center-text button-area">
+                                    <input type="submit" class="btn btn-sub" value="Submit">
+                                  </div>
+                                 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </form>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-4">
+                    <h2>Find me at </h2>
+                    <ul>
+                        <li>Birmingham City University, University House</li>
+                        <li>15 Bartholomew Row, Birmingham</li>
+                        <li>B5 5JU</li>
+                        <li>United Kingdom</li>
+                    </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8173.343041165594!2d-1.891209928252153!3d52.48005142602702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bde9e0af29d7%3A0x3e45b5a28db1e4a0!2sBirmingham%20City%20University!5e0!3m2!1sen!2suk!4v1639173341805!5m2!1sen!2suk" 
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-1"></div>
+        </div>
+        
+           
+    </main>
     <footer class="footer">
-        Copyright &copy; Mihai Portariu Web Design. All Rights Reserved
+        Copyright &copy; Mihai Portariu Web Design. All Rights Reserved!
         
     </footer>
 
 </body>
+</html>

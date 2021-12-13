@@ -1,75 +1,109 @@
-
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Defining Colors</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/header.css">
-        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/colors.css">
     </head>
-    <body class="home_page">
-        <header class="header">
+    <body>
+        <main>        <header class="header">
             <a href="index.html" class="">
-                <img src="../media/LOGO.PNG">
+                <img src="../media/LOGO.PNG" alt="WAG3.0">
             </a>
             <a href="index.html" class="logo">WAG 2.0</a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
               <li><a href="index.html">Home</a></li>
-              <li><a href="#team">History</a></li>
-              <li><a href="AboutME.html">About Me</a></li>
-              <li><a href="#lsls">References</a></li>
+              <li><a href="History.html">History</a></li>
+              <li><a href="AboutME.html">Contact Me</a></li>
+              <li><a href="References.html">References</a></li>
             </ul>
         </header>
-        <div class="row">
+        <div class="row white">
             <div class="col-2"></div>
             <div class="col-8">
-            <div class="empty_space0"></div>
-            <div class="empty_space0"></div>
                 <h2>Defining Colors</h2>
                 <div class="empty_space0"></div>
-                <p>Colors can be defined in a few ways. For example, this shade of blue may commonly be defined in three different ways in webpage styles:<br> 
-                    rgb (97, 97, 255): The amount of red, green, and blue that form a color are each presented as a number between 0 and 255. #6161FF: This is 
-                    a "hexadecimal" format where the red/green/blue values are presented as a combination of six letters or numbers. Typically called "Hex," this 
-                    is a very common format in webpages. hsl (240, 100%, 69%): Hue, saturation, and lightness map more closely to the way people perceive colors. 
-                    Changing the "lightness" of a color will change its contrast ratio to another color.</p>
-                    <div class="empty_space0"></div>
-                    <h2><b>Contrast Ratio</b></h2>
-                    <div class="empty_space0"></div>
-                    <p>In WCAG 2, contrast is a measure of the difference in perceived
+                <div class="table-wrapper">
+                    <table>
+                        <tr>
+                            <td class="td1">Contrast</td>
+                            <td class="td2">High Visibility</td>
+                        </tr>
+                        <tr>
+                            <td class="td3">Low Visibility</td>
+                            <td class="td4">Vibrates</td>
+                        </tr>
+                    </table>
+                    <p>Colors can be defined in a few ways. For example, <span class="shade-of-blue">this shade of blue</span> may commonly be defined in three different ways in webpage styles:<br> 
+                        rgb (97, 97, 255): The amount of red, green, and blue that form a color are each presented as a number between 0 and 255. #6161FF: This is 
+                        a "hexadecimal" format where the red/green/blue values are presented as a combination of six letters or numbers. Typically called "Hex," this 
+                        is a very common format in webpages. hsl (240, 100%, 69%): Hue, saturation, and lightness map more closely to the way people perceive colors. 
+                        Changing the "lightness" of a color will change its contrast ratio to another color.
+                    </p>
+                </div>
+                
+                
+                <div class="empty_space0"></div>
+                <h2><b>Contrast Ratio</b></h2>
+                <div class="empty_space0"></div>
+                <p>In WCAG 2, contrast is a measure of the difference in perceived
                         "luminance" or brightness between two colors (the phrase "color
                         contrast" is never used). This brightness difference is expressed
                         as a ratio ranging from 1:1 (e.g. white on white) to 21:1 (e.g., black on a white).
-                        To give a frame of reference, on a white background  </p>
-                    <p>In WCAG 2, contrast is a measure of the difference in perceived "luminance"
+                        To give a frame of reference, on a white background.
+                </p>
+                <p>In WCAG 2, contrast is a measure of the difference in perceived "luminance"
                         or brightness between two colors (the phrase "color contrast" is never used).
                         This brightness difference is expressed as a ratio ranging from 1:1
                         (e.g. white on white) to 21:1 (e.g., black on a white). To give a frame of reference,
                         on a white background</p>
-                    <P>Pure red (#FF0000) has a ratio of 4:1. I am red text.<br>
-                        Pure green (#00FF00) has a very low ratio of 1.4:1. I am green text.<br>
-                        Pure blue (#000FF) has a contrast ratio of 8.6:1. I am blue text</P>
-                    <p>in order to be Level AA conformant, your page must have all of the following:
-
-                        A 4.5:1 contrast between the non-link text color and the background.
-                        A 4.5:1 contrast between the link text color and the background.
-                        A 3:1   contrast between the link text color and the surrounding non-link text color.
-                    <p>in order to be Level AA conformant, your page must have all of the following:<br>
-
-                        A 4.5:1 contrast between the non-link text color and the background.<br>
-                        A 4.5:1 contrast between the link text color and the background.<br>
-                        A 3:1   contrast between the link text color and the surrounding non-link text color.<br>
-
-                    </p>In other words, your link color has to be significantly different from the background color
-                        AND the surrounding text color, which also has to be significantly different from the background color.</p>
+                    <p>Pure red (#FF0000) has a ratio of 4:1. <span class="red">I am red text.</span><br>
+                        Pure green (#00FF00) has a very low ratio of 1.4:1. <span class="green">I am green text.</span><br>
+                        Pure blue (#000FF) has a contrast ratio of 8.6:1. <span class="blue">I am blue text.</span></p>
             </div>
             <div class="col-2"></div>
         </div>
+        <div class="row grey">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <p>In order to be Level AA conformant, your page must have all of the following:
+
+                    A 4.5:1 contrast between the non-link text color and the background.
+                    A 4.5:1 contrast between the link text color and the background.
+                    A 3:1   contrast between the link text color and the surrounding non-link text color.
+                <p>In order to be Level AA conformant, your page must have all of the following:<br>
+
+                    A 4.5:1 contrast between the non-link text color and the background.<br>
+                    A 4.5:1 contrast between the link text color and the background.<br>
+                    A 3:1   contrast between the link text color and the surrounding non-link text color.<br>
+
+                </p>
+                <p>In other words, your link color has to be significantly different from the background color
+                    AND the surrounding text color, which also has to be significantly different from the background color.</p>
+
+                <p>Here is a very useful video on visual contrast for UI design:</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="video video-frame"><iframe src="https://www.youtube.com/embed/X55zsNZ9xow" 
+                    title="Contrast in UI design" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        </main>
         <footer class="footer">
-            Copyright &copy; Mihai Portariu Web Design. All Rights Reserved
+            Copyright &copy; Mihai Portariu Web Design. All Rights Reserved!
             
         </footer>
     </body>
+</html>
